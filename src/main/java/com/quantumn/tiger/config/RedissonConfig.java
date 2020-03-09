@@ -25,6 +25,7 @@ public class RedissonConfig {
     @Bean
     public RedissonClient redissonClient() {
         RedissonClient redissonClient;
+        System.out.println("test.master");
 
         Config config = new Config();
         System.out.println("test!!!");
