@@ -27,6 +27,7 @@ public class RedissonConfig {
         RedissonClient redissonClient;
 
         Config config = new Config();
+        System.out.println("test!!!");
         String url = "redis://" + host + ":" + port;
         log.info("url:{}",url);
 //        config.useSingleServer().setAddress(url);
