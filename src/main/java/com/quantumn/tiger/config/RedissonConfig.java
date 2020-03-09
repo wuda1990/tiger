@@ -26,6 +26,7 @@ public class RedissonConfig {
     public RedissonClient redissonClient() {
         RedissonClient redissonClient;
         System.out.println("test.master");
+        System.out.println("test.master.push");
 
         Config config = new Config();
         System.out.println("test!!!");
